@@ -1,1 +1,2 @@
-Create initial GitHub repository with README and LICENSE, make no mistakes. 
+Create a website that takes all of Terra Station Facebook album (https://www.facebook.com/terrastationvn/photos_albums) and display it as a comic reader
+Use Next.js, Elysia.js, Tailwind and anything else that is needed
