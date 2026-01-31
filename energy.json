@@ -1,0 +1,18 @@
+{
+    "Originium_Ore":{
+        "energy_generated": 50,
+        "time_sustained": 8
+    },
+    "LC_Valley_Battery":{
+        "energy_generated": 220,
+        "time_sustained": 40
+    },
+    "SC_Valley_Battery":{
+        "energy_generated": 420,
+        "time_sustained": 40
+    },
+    "HC_Valley_Battery":{
+        "energy_generated": 110,
+        "time_sustained": 40
+    }
+}

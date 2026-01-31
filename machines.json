@@ -1,0 +1,135 @@
+{
+    "Item_controller": {
+        "dimension": "1x1",
+        "power_consumption": "0",
+        "inputPorts": "1",
+        "outputPorts": "1",
+        "description": "control the number of items passing through"
+    },
+    "Splitter":{
+        "dimension": "1x1",
+        "power_consumption": "0",
+        "inputPorts": "1",
+        "outputPorts": "3",
+        "description": "splits one input conveyor belt into three belts"
+    },
+    "Belt_Bridge": {
+        "dimension": "1x1",
+        "power_consumption": "0",
+        "inputPorts": "2",
+        "outputPorts": "2",
+        "description": "allows conveyor belts to cross over each other"
+    },
+    "Converger": {
+        "dimension": "1x1",
+        "power_consumption": "0",
+        "inputPorts": "3",
+        "outputPorts": "1",
+        "description": "merges three input conveyor belts into one belt"
+    },
+    "Protocol_Stash":{
+        "dimension": "3x3",
+        "power_consumption": "5",
+        "inputPorts": "3",
+        "outputPorts": "3",
+        "description": "Temporarily stores items. After a brief delay, move all items inside to depot"
+    },
+    "Depot_Unloader":{
+        "dimension": "3x1",
+        "power_consumption": "0",
+        "inputPorts": "0",
+        "outputPorts": "1",
+        "description": "Unloads items from depot onto conveyor belts"
+    },
+    "Depot_Loader":{
+        "dimension": "3x1",
+        "power_consumption": "0",
+        "inputPorts": "1",
+        "outputPorts": "0",
+        "description": "Loads items from conveyor belts to depot"
+    },
+    "Refining_Unit":{
+        "dimension": "3x3",
+        "power_consumption": "5",
+        "inputPorts": "3",
+        "outputPorts": "3",
+        "description": "Refines raw materials into production materials"
+    },
+    "Shredding_Unit":{
+        "dimension": "3x3",
+        "power_consumption": "5",
+        "inputPorts": "3",
+        "outputPorts": "3",
+        "description": "Shreds items into powders"
+    },
+    "Fitting_Unit":{
+        "dimension": "3x3",
+        "power_consumption": "5",
+        "inputPorts": "3",
+        "outputPorts": "3",
+        "description": "Turns production materials into various parts"
+    },
+    "Moulding_Unit":{
+        "dimension": "3x3",
+        "power_consumption": "10",
+        "inputPorts": "3",
+        "outputPorts": "3",
+        "description": "Moulds parts into containers"
+    },
+    "Seed-picking_Unit":{
+        "dimension": "5x5",
+        "power_consumption": "10",
+        "inputPorts": "5",
+        "outputPorts": "5",
+        "description": "Picks seeds from plants"
+    },
+    "Planting_Unit":{
+        "dimension": "5x5",
+        "power_consumption": "20",
+        "inputPorts": "5",
+        "outputPorts": "5",
+        "description": "Plants seeds into plants"
+    },
+    "Gearing_Unit":{
+        "dimension": "4x6",
+        "power_consumption": "10",
+        "inputPorts": "6",
+        "outputPorts": "6",
+        "description": "Assembles parts into gears"
+    },
+    "Filling_Unit":{
+        "dimension": "4x6",
+        "power_consumption": "20",
+        "inputPorts": "6",
+        "outputPorts": "6",
+        "description": "Fills containers with various materials"
+    },
+    "Packaging_Unit":{
+        "dimension": "4x6",
+        "power_consumption": "20",
+        "inputPorts": "6",
+        "outputPorts": "6",
+        "description": "Package certain batteries and medicines"
+    },
+    "Grinding_Unit":{
+        "dimension": "4x6",
+        "power_consumption": "50",
+        "inputPorts": "6",
+        "outputPorts": "6",
+        "description": "Grinds materials into powders"
+    },
+    "Electric_Pylon":{
+        "dimension": "2x2",
+        "power_consumption": "0",
+        "inputPorts": "0",
+        "outputPorts": "0",
+        "description": "Distributes electrical energy to nearby machines"
+    },
+    "Thermal_Bank":{
+        "dimension": "2x2",
+        "power_consumption": "0",
+        "inputPorts": "2",
+        "outputPorts": "0",
+        "description": "Uses Energy items to spply powers to the entire network"
+    }
+}

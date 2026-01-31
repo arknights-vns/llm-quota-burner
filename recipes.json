@@ -1,0 +1,401 @@
+{
+    "Origocrust":
+    [
+        {
+            "input": {"Originium_Ore": 1},
+            "machine": "Refining_Unit",
+            "output": {"Origocrust": 1},
+            "time": 2
+        },
+        {
+            "input": {"Origocrust_Dust": 1},
+            "machine": "Refining_Unit",
+            "output": {"Origocrust": 1},
+            "time": 2
+        }
+    ],
+    "Amethyst_Fiber":
+    [
+        {
+            "input": {"Amethyst_Ore": 1},
+            "machine": "Refining_Unit",
+            "output": {"Amethyst_Fiber": 1},
+            "time": 2
+        }
+    ],
+    "Carbon":
+    [
+        {
+            "input": {"Buckflower": 1},
+            "machine": "Refining_Unit",
+            "output": {"Carbon": 1},
+            "time": 2
+        },
+        {
+            "input": {"Sandleaf": 1},
+            "machine": "Refining_Unit",
+            "output": {"Carbon": 1},
+            "time": 2
+        }
+    ],
+    "Ferrium":
+    [
+        {
+            "input": {"Ferrium_Ore": 1},
+            "machine": "Refining_Unit",
+            "output": {"Ferrium": 1},
+            "time": 2
+        }
+    ],
+    "Stabilized_Carbon":
+    [
+        {
+            "input": {"Carbon": 1},
+            "machine": "Refining_Unit",
+            "output": {"Stabilized_Carbon": 1},
+            "time": 2
+        }
+    ],
+    "Packed_Origocrust":
+    [
+        {
+            "input": {"Dense_Origocrust_Powerder": 1},
+            "machine": "Refining_Unit",
+            "output": {"Packed_Origocrust": 1},
+            "time": 2
+        }
+    ],
+    "Cryston_Fiber":
+    [
+        {
+            "input": {"Cryston_Powder": 1},
+            "machine": "Refining_Unit",
+            "output": {"Cryston_Fiber": 1},
+            "time": 2
+        }
+    ],
+    "Steel":
+    [
+        {
+            "input": {"Dense_Ferrium_Powder": 1},
+            "machine": "Refining_Unit",
+            "output": {"Steel": 1},
+            "time": 2
+        }
+    ],
+    "Carbon_Powder":
+    [
+        {
+            "input": {"Carbon": 1},
+            "machine": "Shredding_Unit",
+            "output": {"Carbon_Powder": 2},
+            "time": 2
+        }
+    ],
+    "Originium_Powder":
+    [
+        {
+            "input": {"Originium_Ore": 1},
+            "machine": "Shredding_Unit",
+            "output": {"Originium_Powder": 1},
+            "time": 2
+        }
+    ],
+    "Origocrust_Powder":
+    [
+        {
+            "input": {"Origocrust": 1},
+            "machine": "Shredding_Unit",
+            "output": {"Origocrust_Dust": 1},
+            "time": 2
+        }
+    ],
+    "Amethyst_Powder":
+    [
+        {
+            "input": {"Amethyst_Fiber": 1},
+            "machine": "Shredding_Unit",
+            "output": {"Amethyst_Dust": 1},
+            "time": 2
+        }
+    ],
+    "Ferrium_Powder":
+    [
+        {
+            "input": {"Ferrium": 1},
+            "machine": "Shredding_Unit",
+            "output": {"Ferrium_Powder": 1},
+            "time": 2
+        }
+    ],
+    "Sandleaf_Powder":
+    [
+        {
+            "input": {"Sandleaf": 1},
+            "machine": "Shredding_Unit",
+            "output": {"Sandleaf_Powder": 3},
+            "time": 2
+        }
+    ],
+    "Aketine_Powder":
+    [
+        {
+            "input": {"Aketine": 1},
+            "machine": "Shredding_Unit",
+            "output": {"Aketine_Powder": 2},
+            "time": 2
+        }
+    ],
+    "Buckflower_Powder":
+    [
+        {
+            "input": {"Buckflower": 1},
+            "machine": "Shredding_Unit",
+            "output": {"Buckflower_Powder": 2},
+            "time": 2
+        }
+    ],
+    "Citrome_Powder":
+    [
+        {
+            "input": {"Citrome": 1},
+            "machine": "Shredding_Unit",
+            "output": {"Citrome_Powder": 2},
+            "time": 2
+        }
+    ],
+    "Ground_Buckflower_Powder":
+    [
+        {
+            "input": {"Buckflower_Powder": 2, "Sandleaf_Powder": 1},
+            "machine": "Grinding_Unit",
+            "output": {"Ground_Buckflower_Powder": 1},
+            "time": 2
+        }
+    ],
+    "Ground_Citrome_Powder":
+    [
+        {
+            "input": {"Citrome_Powder": 2, "Sandleaf_Powder": 1},
+            "machine": "Grinding_Unit",
+            "output": {"Ground_Citrome_Powder": 1},
+            "time": 2
+        }
+    ],
+    "Dense_Carbon_Powder":
+    [
+        {
+            "input": {"Carbon_Powder": 2, "Sandleaf_Powder": 1},
+            "machine": "Grinding_Unit",
+            "output": {"Dense_Carbon_Powder": 1},
+            "time": 2
+        }
+    ],
+    "Dense_Originium_Powder":
+    [
+        {
+            "input": {"Originium_Powder": 2, "Sandleaf_Powder": 1},
+            "machine": "Grinding_Unit",
+            "output": {"Dense_Originium_Powder": 1},
+            "time": 2
+        }
+    ],
+    "Dense_Origocrust_Powder":
+    [
+        {
+            "input": {"Origocrust_Powder": 2, "Sandleaf_Powder": 1},
+            "machine": "Grinding_Unit",
+            "output": {"Dense_Origocrust_Powder": 1},
+            "time": 2
+        }
+    ],
+    "Cryston_Powder":
+    [
+        {
+            "input": {"Amethyst_Powder": 2, "Sandleaf_Powder": 1},
+            "machine": "Grinding_Unit",
+            "output": {"Cryston_Powder": 1},
+            "time": 2
+        }
+    ],
+    "Dense_Ferrium_Powder":
+    [
+        {
+            "input": {"Ferrium_Powder": 2, "Sandleaf_Powder": 1},
+            "machine": "Grinding_Unit",
+            "output": {"Dense_Ferrium_Powder": 1},
+            "time": 2
+        }
+    ],
+    "Amethyst_Bottle":
+    [
+        {
+            "input": {"Amethyst_Fiber": 2},
+            "machine": "Moudling_Unit",
+            "output": {"Amethyst_Bottle": 1},
+            "time": 2
+        }
+    ],
+    "Ferrium_Bottle":
+    [
+        {
+            "input": {"Ferrium": 2},
+            "machine": "Moudling_Unit",
+            "output": {"Ferrium_Bottle": 1},
+            "time": 2
+        }
+    ],
+    "Cryston_Bottle":
+    [
+        {
+            "input": {"Cryston_Fiber": 2},
+            "machine": "Moudling_Unit",
+            "output": {"Cryston_Bottle": 1},
+            "time": 2
+        }
+    ],
+    "Steel_Bottle":
+    [
+        {
+            "input": {"Steel": 2},
+            "machine": "Moudling_Unit",
+            "output": {"Steel_Bottle": 1},
+            "time": 2
+        }
+    ],
+    "Amethyst_Part":
+    [
+        {
+            "input": {"Amethyst_Fiber": 1},
+            "machine": "Fitting_Unit",
+            "output": {"Amethyst_Part": 1},
+            "time": 2
+        }
+    ],
+    "Ferrium_Part":
+    [
+        {
+            "input": {"Ferrium": 1},
+            "machine": "Fitting_Unit",
+            "output": {"Ferrium_Part": 1},
+            "time": 2
+        }
+    ],
+    "Cryston_Part":
+    [
+        {
+            "input": {"Cryston_Fiber": 1},
+            "machine": "Fitting_Unit",
+            "output": {"Cryston_Part": 1},
+            "time": 2
+        }
+    ],
+    "Steel_Part":
+    [
+        {
+            "input": {"Steel": 1},
+            "machine": "Fitting_Unit",
+            "output": {"Steel_Part": 1},
+            "time": 2
+        }
+    ],
+    "LC_Valley_Battery":
+    [
+        {
+            "input": {"Amethyst_Part": 5, "Originium_Powder": 10},
+            "machine": "Packaging_Unit",
+            "output": {"LC_Valley_Battery": 1},
+            "time": 10
+        }
+    ],
+    "SC_Valley_Battery":
+    [
+        {
+            "input": {"Ferrium_Part": 5, "Originium_Powder": 15},
+            "machine": "Packaging_Unit",
+            "output": {"SC_Valley_Battery": 1},
+            "time": 10
+        }
+    ],
+    "HC_Valley_Battery":
+    [
+        {
+            "input": {"Steel_Part": 5, "Dense_Originium_Powerder": 15},
+            "machine": "Packaging_Unit",
+            "output": {"HC_Valley_Battery": 1},
+            "time": 10
+        }
+    ],
+    "Buck_Capsule_[B]":
+    [
+        {
+            "input": {"Buckflower_Powder": 10, "Ferrium_Bottle": 10},
+            "machine": "Filling_Unit",
+            "output": {"Buck_Capsule_[B]": 1},
+            "time": 10
+        }
+    ],
+    "Buck_Capsule_[A]":
+    [
+        {
+            "input": {"Ground_Buckflower_Powder": 10, "Steel_Bottle": 10},
+            "machine": "Filling_Unit",
+            "output": {"Buck_Capsule_[B]": 1},
+            "time": 10
+        }
+    ],
+    "Buckflower":
+    [
+        {
+            "input": {"Buckflower_Seed": 1},
+            "machine": "Planting_Unit",
+            "output": {"Buckflower": 1},
+            "time": 2
+        }
+    ],
+    "Citrome":
+    [
+        {
+            "input": {"Citrome_Seed": 1},
+            "machine": "Planting_Unit",
+            "output": {"Citrome": 1},
+            "time": 2
+        }
+    ],
+    "Sandleaf":
+    [
+        {
+            "input": {"Sandleaf_Seed": 1},
+            "machine": "Planting_Unit",
+            "output": {"Sandleaf": 1},
+            "time": 2
+        }
+    ],
+    "Buckflower_Seed":
+    [
+        {
+            "input": {"Buckflower": 1},
+            "machine": "Seed-picking_Unit",
+            "output": {"Buckflower_Seed": 2},
+            "time": 2
+        }
+    ],
+    "Citrome_Seed":
+    [
+        {
+            "input": {"Citrome": 1},
+            "machine": "Seed-picking_Unit",
+            "output": {"Citrome_Seed": 2},
+            "time": 2
+        }
+    ],
+    "Sandleaf_Seed":
+    [
+        {
+            "input": {"Sandleaf": 1},
+            "machine": "Seed-picking_Unit",
+            "output": {"Sandleaf_Seed": 2},
+            "time": 2
+        }
+    ]
+}
