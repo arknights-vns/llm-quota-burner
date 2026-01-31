@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎭 Terra Station Comic Reader</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 bg-gray-900 border-b border-gray-700 p-4 z-30">
+        <h1 class="text-3xl font-bold">🎭 Terra Station Comic Reader</h1>
+        <p class="text-gray-400 text-sm mt-1">Displaying photos from Terra Station Facebook albums</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="flex h-screen pt-24">
+        <!-- Album Sidebar -->
+        <aside id="album-list" class="w-full md:w-64 bg-gray-800 border-r border-gray-700 overflow-y-auto">
+            <div class="sticky top-0 bg-gray-900 border-b border-gray-700 p-4 z-20">
+                <h2 class="text-xl font-bold">Albums</h2>
+            </div>
+            <div id="albums-container" class="divide-y divide-gray-700">
+                <div class="p-4 text-center text-gray-400">Loading albums...</div>
+            </div>
+        </aside>
+
+        <!-- Comic Viewer -->
+        <main class="flex flex-col flex-1 bg-black">
+            <!-- Photo Display -->
+            <div id="photo-viewer" class="flex-1 flex items-center justify-center overflow-hidden relative">
+                <p class="text-gray-400">Select an album to view photos</p>
+            </div>
+
+            <!-- Navigation Controls -->
+            <div id="controls" class="bg-gray-900 border-t border-gray-700 p-4 hidden">
+                <div class="flex items-center justify-between mb-4">
+                    <span id="page-info" class="text-gray-300">Page 1 of 1</span>
+                    <div class="flex gap-2">
+                        <button id="prev-btn" class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg transition-colors">
+                            ← Prev
+                        </button>
+                        <button id="next-btn" class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg transition-colors">
+                            Next →
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Thumbnail Slider -->
+                <div id="thumbnail-slider" class="flex gap-2 overflow-x-auto pb-2"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
